@@ -44,7 +44,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/cinnamoroll.jpeg" alt="Cinnamoroll" />
+        <img src="./images/images.jpeg" alt="Cinnamoroll" />
       </div>
       <br />
       <div class="page-content-php">

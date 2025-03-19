@@ -43,7 +43,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/notebook-animation.svg" alt="laptop image" width="250" />
+        <img src="./images/images.jpeg" alt="address image" />
       </div>
       <div class="page-content-php">
         <div id="user-address">
@@ -51,7 +51,7 @@
           $streetname = $_GET["streetname"];
           $streetnumber = $_GET["streetnumber"];
 
-          echo "<p>Your info is: " . $streetname . ", age " . $streetnumber . ".</p>";
+          echo "<p>Your address is: " . $streetname . ", age " . $streetnumber . ".</p>";
           ?>
         </div>
       </div>
