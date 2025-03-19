@@ -48,11 +48,14 @@
       <div class="page-content-php">
         <div id="user-address">
           <?php
-          $streetname = $_GET["streetname"];
           $streetnumber = $_GET["streetnumber"];
+          $streetname = $_GET["streetname"];
 
-          echo "<p>Your address is: " . $streetname . ", age " . $streetnumber . ".</p>";
+          echo "<p>Your address is: " . $streetnumber . ", " . $streetname . ".</p>";
           ?>
+        </div>
+        <div class="page-content-answer">
+          <a href="./index.php">Return ...</a>
         </div>
       </div>
     </main>
